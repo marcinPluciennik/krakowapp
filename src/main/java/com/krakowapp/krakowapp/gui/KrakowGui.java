@@ -110,7 +110,7 @@ public class KrakowGui extends VerticalLayout {
 
         Label labelPhotoUrl = new Label("GET YOUR OWN SOUVENIR PHOTO FROM KRAKOW!");
         setHorizontalComponentAlignment(Alignment.CENTER, labelPhotoUrl);
-        TextField textFieldPhotoUrl = new TextField("Link to your photo (16:9 will be the best format of photo), e.g.:");
+        TextField textFieldPhotoUrl = new TextField("Paste the link of your photo, e.g.:");
         textFieldPhotoUrl.setValue(DEFAULT_IMAGE_TO_CHANGE_URL);
         textFieldPhotoUrl.setWidthFull();
         Button buttonPhoto = new Button("Click here and wait a moment, the photo will appear below ⬇ :");
